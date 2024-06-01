@@ -10,7 +10,7 @@ body {
 }
 
 .bloop p {
-    color: #f78db2;
+    color: #ef7ca4;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -18,6 +18,7 @@ body {
 
 .content {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #mainNav {
@@ -30,6 +31,7 @@ body {
 }
 
 #mainNav .navbar-brand {
+    font-size: 1.8rem;
     color: #ea1c2c;
 }
 
@@ -39,7 +41,12 @@ body {
 
 #heading-group h1 {
     font-weight: 100;
-    font-size: 2.8rem;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: rgb(200, 172, 200);
+    transition: background 500ms;
 }
 
 @media (max-width: 1100px) {
