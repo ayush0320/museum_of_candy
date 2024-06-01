@@ -1,6 +1,23 @@
 body {
-    background-color: #f5d9df;
+    background-color: #f8dfe5;
     font-family: "Nunito", sans-serif;
+}
+
+.bloop h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.bloop p {
+    color: #f78db2;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
 }
 
 #mainNav {
